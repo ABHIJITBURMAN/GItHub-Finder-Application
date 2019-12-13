@@ -20,7 +20,7 @@ searchUser.addEventListener('keyup', (e) => {
            if(data.profile.message==='Not Found')
            {
                //show alert
-               console.log(data);
+               console.log(data,"Data");
                ui.showAlert('Profile does not found', 'alert alert-danger');
                ui.clearProfile();
            }
